@@ -1,0 +1,8 @@
+@EndpointsPage_HostAddress = http://localhost:5166
+
+GET {{EndpointsPage_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{EndpointsPage_HostAddress}}/api/stats/1
+Accept: application/json
